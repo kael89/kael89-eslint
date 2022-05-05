@@ -1,0 +1,39 @@
+{
+  "name": "@kael89/eslint-config-jest",
+  "version": "0.1.0",
+  "description": "ESLint configuration for projects using jest",
+  "keywords": [
+    "javascript",
+    "eslint",
+    "jest"
+  ],
+  "homepage": "https://github.com/kael89/kael89-eslint/packages/eslint-config-jest#readme",
+  "bugs": {
+    "url": "https://github.com/kael89/kael89-eslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kael89/kael89-eslint.git",
+    "directory": "packages/eslint-config-jest"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "eslint-plugin-jest": "^26.1.5",
+    "eslint-plugin-jest-formatting": "^3.1.0"
+  },
+  "devDependencies": {
+    "@kael89/eslint-shared": "0.1.0",
+    "@kael89/eslint-utils": "0.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "jest": "^27.0.0"
+  }
+}

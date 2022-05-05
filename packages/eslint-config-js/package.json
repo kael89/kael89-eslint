@@ -1,0 +1,56 @@
+{
+  "name": "@kael89/eslint-config-js",
+  "version": "0.1.0",
+  "description": "ESLint configuration for JavaScript projects",
+  "keywords": [
+    "javascript",
+    "eslint",
+    "airbnb",
+    "react.js"
+  ],
+  "homepage": "https://github.com/kael89/kael89-eslint/packages/eslint-config-js#readme",
+  "bugs": {
+    "url": "https://github.com/kael89/kael89-eslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kael89/kael89-eslint.git",
+    "directory": "packages/eslint-config-js"
+  },
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "index.js"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-config-prettier": "^8.5.0",
+    "eslint-plugin-import": "^2.26.0",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-prettier": "^4.0.0",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.5.0",
+    "eslint-plugin-simple-import-sort": "^7.0.0"
+  },
+  "devDependencies": {
+    "@kael89/eslint-shared": "0.1.0",
+    "@kael89/eslint-utils": "0.1.0"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0 || ^8.2.0",
+    "prettier": "^2.0.0",
+    "prop-types": "^15.8.0",
+    "react": "^16.0.0 || ^17.2.0 || ^18.0.0"
+  },
+  "peerDependenciesMeta": {
+    "prop-types": {
+      "optional": true
+    },
+    "react": {
+      "optional": true
+    }
+  }
+}

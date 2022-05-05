@@ -1,0 +1,4 @@
+{
+  "setupFilesAfterEnv": ["./jest.setup.js"],
+  "testMatch": ["**/__tests__/**/(test|*.test).js"]
+}

@@ -1,0 +1,34 @@
+{
+  "extends": ["./packages/eslint-config-jest", "./packages/eslint-config-js"],
+  "parserOptions": {
+    "ecmaVersion": 2022
+  },
+  "rules": {
+    "import/no-extraneous-dependencies": [
+      "error",
+      {
+        "devDependencies": ["scripts/**"]
+      }
+    ]
+  },
+  "overrides": [
+    {
+      "files": ["scripts/**"],
+      "rules": {
+        "no-console": "off"
+      }
+    },
+    {
+      "files": ["packages/**"],
+      "rules": {
+        "import/no-extraneous-dependencies": [
+          "error",
+          {
+            "devDependencies": ["**/__tests__/**", "jest-resolver.js", "**/jest.setup.js"],
+            "packageDir": [".", "../../"]
+          }
+        ]
+      }
+    }
+  ]
+}

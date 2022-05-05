@@ -1,0 +1,20 @@
+{
+  "name": "@kael89/eslint-shared",
+  "version": "0.1.0",
+  "private": true,
+  "description": "Config shared by other ESLint config packages in the monorepo",
+  "homepage": "https://github.com/kael89/kael89-eslint/packages/shared#readme",
+  "bugs": {
+    "url": "https://github.com/kael89/kael89-eslint/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kael89/kael89-eslint.git",
+    "directory": "packages/shared"
+  },
+  "license": "MIT",
+  "main": "src/index.js",
+  "dependencies": {
+    "@kael89/eslint-utils": "0.1.0"
+  }
+}

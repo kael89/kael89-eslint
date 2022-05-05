@@ -1,0 +1,14 @@
+{
+  "folders": [
+    { "path": ".", "name": "root" },
+    { "path": "packages/eslint-config-jest" },
+    { "path": "packages/eslint-config-js" },
+    { "path": "packages/eslint-config-ts" },
+    { "path": "packages/shared" },
+    { "path": "packages/utils" }
+  ],
+  "settings": {
+    "cSpell.words": ["camelcase", "Gotchas", "kael", "Karvounis", "Kostas", "parens", "vars"],
+    "files.exclude": { "packages/": true }
+  }
+}
