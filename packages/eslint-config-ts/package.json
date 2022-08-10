@@ -1,6 +1,6 @@
 {
   "name": "@kael89/eslint-config-ts",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "ESLint configuration for TypeScript projects",
   "keywords": [
     "typescript",
@@ -45,8 +45,8 @@
     "eslint-plugin-simple-import-sort": "^7.0.0"
   },
   "devDependencies": {
-    "@kael89/eslint-shared": "0.1.1",
-    "@kael89/eslint-utils": "0.1.1",
+    "@kael89/eslint-shared": "0.1.2",
+    "@kael89/eslint-utils": "0.1.2",
     "enhanced-resolve": "^5.9.3"
   },
   "peerDependencies": {
