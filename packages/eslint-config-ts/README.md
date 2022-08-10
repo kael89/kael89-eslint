@@ -13,7 +13,7 @@ This the base [ESLint](https://eslint.org/) configuration I use in personal Type
 1. Install the package and its peer dependencies:
 
 ```bash
-yarn add -D @kael89/ts eslint prettier
+yarn add -D @kael89/eslint-config-ts eslint prettier
 ```
 
 2. Extend this package in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
@@ -21,11 +21,20 @@ yarn add -D @kael89/ts eslint prettier
 ```json
 {
   "eslintConfig": {
-    "extends": "@kael89/eslint-config-ts"
+    "extends": "@kael89/ts"
   }
+}
 ```
 
-**Note:** If you are using the [new JSX transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html) from React 17, extend `react/jsx-runtime` in your eslint config (add "plugin:react/jsx-runtime" to "extends") to disable the relevant rules. See [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
+**Note:** If you are using the [new JSX transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html) from React 17, use `react/jsx-runtime` to disable some relevant rules. See [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react):
+
+```json
+{
+  "eslintConfig": {
+    "extends": ["@kael89/ts", "plugin:react/jsx-runtime"]
+  }
+}
+```
 
 ## Gotchas
 

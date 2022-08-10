@@ -9,7 +9,7 @@ This the base [ESLint](https://eslint.org/) configuration I use in personal proj
 1. Install the package and its peer dependencies:
 
 ```bash
-yarn add -D @kael89/jest eslint prettier
+yarn add -D @kael89/eslint-config-jest eslint prettier
 ```
 
 2. Extend this package in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
@@ -17,7 +17,7 @@ yarn add -D @kael89/jest eslint prettier
 ```json
 {
   "eslintConfig": {
-    "extends": "@kael89/eslint-config-jest"
+    "extends": "@kael89/jest"
   }
 }
 ```
