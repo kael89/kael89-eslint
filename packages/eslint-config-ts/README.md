@@ -23,6 +23,7 @@ yarn add -D @kael89/ts eslint prettier
   "eslintConfig": {
     "extends": "@kael89/eslint-config-ts"
   }
+}
 ```
 
 **Note:** If you are using the [new JSX transform](https://reactjs.org/blog/2020/09/22/introducing-the-new-jsx-transform.html) from React 17, extend `react/jsx-runtime` in your eslint config (add "plugin:react/jsx-runtime" to "extends") to disable the relevant rules. See [eslint-plugin-react](https://www.npmjs.com/package/eslint-plugin-react)
