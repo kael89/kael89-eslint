@@ -1,6 +1,6 @@
 {
   "name": "@kael89/eslint-utils",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "description": "Utils shared across the monorepo",
   "homepage": "https://github.com/kael89/kael89-eslint/tree/master/packages/utils",
