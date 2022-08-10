@@ -7,7 +7,7 @@
     "eslint",
     "jest"
   ],
-  "homepage": "https://github.com/kael89/kael89-eslint/packages/eslint-config-jest#readme",
+  "homepage": "https://github.com/kael89/kael89-eslint/tree/master/packages/eslint-config-jest",
   "bugs": {
     "url": "https://github.com/kael89/kael89-eslint/issues"
   },

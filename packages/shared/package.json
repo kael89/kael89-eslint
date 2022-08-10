@@ -3,7 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "description": "Config shared by other ESLint config packages in the monorepo",
-  "homepage": "https://github.com/kael89/kael89-eslint/packages/shared#readme",
+  "homepage": "https://github.com/kael89/kael89-eslint/tree/master/packages/shared",
   "bugs": {
     "url": "https://github.com/kael89/kael89-eslint/issues"
   },
