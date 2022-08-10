@@ -13,7 +13,7 @@ This the base [ESLint](https://eslint.org/) configuration I use in personal Type
 1. Install the package and its peer dependencies:
 
 ```bash
-yarn add -D kael89/eslint-config-ts eslint prettier
+yarn add -D @kael89/ts eslint prettier
 ```
 
 2. Extend this package in your [ESLint configuration](https://eslint.org/docs/user-guide/configuring):
