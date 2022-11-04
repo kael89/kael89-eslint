@@ -1,6 +1,6 @@
 {
   "name": "@kael89/eslint-shared",
-  "version": "0.1.2",
+  "version": "0.1.3",
   "private": true,
   "description": "Config shared by other ESLint config packages in the monorepo",
   "homepage": "https://github.com/kael89/kael89-eslint/tree/master/packages/shared",
