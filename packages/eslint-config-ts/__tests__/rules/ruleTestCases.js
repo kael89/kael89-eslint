@@ -75,6 +75,29 @@ const baseTestCases = {
       },
     ],
   },
+  '@typescript-eslint/lines-between-class-members': {
+    valid: [
+      {
+        name: 'empty line between class members',
+        code: `
+          class Foo {
+            private readonly bar: string;
+
+            private readonly baz: string;
+          }
+        `,
+      },
+      {
+        name: 'no empty line between class members',
+        code: `
+          class Foo {
+            private readonly bar: string;
+            private readonly baz: string;
+          }
+        `,
+      },
+    ],
+  },
   '@typescript-eslint/no-non-null-assertion': {
     valid: [
       {
