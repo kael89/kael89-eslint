@@ -18,6 +18,7 @@ module.exports = {
       'error',
       { overrides: { constructors: 'no-public' } },
     ],
+    '@typescript-eslint/lines-between-class-members': 'off',
     '@typescript-eslint/no-non-null-assertion': 'off',
     '@typescript-eslint/no-use-before-define': 'off',
     'class-methods-use-this': 'off',
